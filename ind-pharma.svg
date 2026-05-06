@@ -1,0 +1,133 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-pharma" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efece5"/>
+      <stop offset="100%" stop-color="#e2ddcd"/>
+    </linearGradient>
+    <pattern id="grid-pharma" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1f29" stroke-width="0.5" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="metal-pharma" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a3142"/>
+      <stop offset="50%" stop-color="#1a1f29"/>
+      <stop offset="100%" stop-color="#0e1219"/>
+    </linearGradient>
+    <linearGradient id="metal2-pharma" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a4253"/>
+      <stop offset="50%" stop-color="#252b39"/>
+      <stop offset="100%" stop-color="#161a25"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg-pharma)"/>
+  <rect width="800" height="800" fill="url(#grid-pharma)"/>
+  <!-- Top-right ornament -->
+  <circle cx="700" cy="120" r="80" fill="none" stroke="#1a1f29" stroke-width="1" opacity="0.07"/>
+  <circle cx="700" cy="120" r="50" fill="none" stroke="#1a1f29" stroke-width="1" opacity="0.10"/>
+  <circle cx="700" cy="120" r="20" fill="#ff5a1f" opacity="0.18"/>
+  <!-- Top-left industry icon -->
+  <g transform="translate(80,90)" opacity="0.5">
+    
+    <rect x="-15" y="-3" width="30" height="6" fill="#1a1f29"/>
+    <rect x="-3" y="-15" width="6" height="30" fill="#1a1f29"/>
+  </g>
+  <!-- Ground shadow -->
+  <ellipse cx="400" cy="650" rx="240" ry="14" fill="#1a1f29" opacity="0.10"/>
+
+  <!-- Stack of pharmaceutical boxes, neatly arranged -->
+  <!-- Bottom row: 4 small boxes -->
+  <g transform="translate(400,640)">
+    <g transform="translate(-180,0)">
+      <path d="M -55 0 L 55 0 L 55 -110 L -55 -110 Z" fill="#f7f5f0"/>
+      <path d="M -55 0 L 55 0 L 70 -10 L 70 -120 L -40 -120 L -55 -110 Z" fill="#e3dfd1"/>
+      <path d="M 55 0 L 55 -110 L 70 -120 L 70 -10 Z" fill="#cfc9b6"/>
+      <rect x="-55" y="-90" width="110" height="14" fill="#ff5a1f"/>
+      <rect x="-50" y="-65" width="50" height="3" fill="#1a1f29" opacity="0.4"/>
+      <rect x="-50" y="-55" width="40" height="3" fill="#1a1f29" opacity="0.3"/>
+      <text x="0" y="-30" font-family="Arial" font-size="11" font-weight="700" fill="#1a1f29" text-anchor="middle">RX</text>
+    </g>
+    <g transform="translate(-60,0)">
+      <path d="M -55 0 L 55 0 L 55 -110 L -55 -110 Z" fill="#1a1f29"/>
+      <path d="M -55 0 L 55 0 L 70 -10 L 70 -120 L -40 -120 L -55 -110 Z" fill="#252b39"/>
+      <path d="M 55 0 L 55 -110 L 70 -120 L 70 -10 Z" fill="#0e1219"/>
+      <rect x="-55" y="-90" width="110" height="14" fill="#f7f5f0"/>
+      <rect x="-15" y="-65" width="30" height="6" fill="#ff5a1f"/>
+      <rect x="-3" y="-77" width="6" height="30" fill="#ff5a1f"/>
+    </g>
+    <g transform="translate(60,0)">
+      <path d="M -55 0 L 55 0 L 55 -110 L -55 -110 Z" fill="#f7f5f0"/>
+      <path d="M -55 0 L 55 0 L 70 -10 L 70 -120 L -40 -120 L -55 -110 Z" fill="#e3dfd1"/>
+      <path d="M 55 0 L 55 -110 L 70 -120 L 70 -10 Z" fill="#cfc9b6"/>
+      <rect x="-55" y="-90" width="110" height="14" fill="#1a1f29"/>
+      <rect x="-50" y="-65" width="50" height="3" fill="#1a1f29" opacity="0.4"/>
+      <rect x="-50" y="-55" width="40" height="3" fill="#1a1f29" opacity="0.3"/>
+      <text x="0" y="-30" font-family="Arial" font-size="11" font-weight="700" fill="#1a1f29" text-anchor="middle">RX</text>
+    </g>
+    <g transform="translate(180,0)">
+      <path d="M -55 0 L 55 0 L 55 -110 L -55 -110 Z" fill="#1a1f29"/>
+      <path d="M -55 0 L 55 0 L 70 -10 L 70 -120 L -40 -120 L -55 -110 Z" fill="#252b39"/>
+      <path d="M 55 0 L 55 -110 L 70 -120 L 70 -10 Z" fill="#0e1219"/>
+      <rect x="-55" y="-90" width="110" height="14" fill="#ff5a1f"/>
+      <rect x="-50" y="-65" width="50" height="3" fill="#f7f5f0" opacity="0.7"/>
+      <rect x="-50" y="-55" width="40" height="3" fill="#f7f5f0" opacity="0.5"/>
+    </g>
+  </g>
+  <!-- Middle row: 3 boxes -->
+  <g transform="translate(400,510)">
+    <g transform="translate(-115,0)">
+      <path d="M -52 0 L 52 0 L 52 -100 L -52 -100 Z" fill="#f7f5f0"/>
+      <path d="M -52 0 L 52 0 L 65 -10 L 65 -110 L -39 -110 L -52 -100 Z" fill="#e3dfd1"/>
+      <path d="M 52 0 L 52 -100 L 65 -110 L 65 -10 Z" fill="#cfc9b6"/>
+      <rect x="-52" y="-82" width="104" height="12" fill="#1a1f29"/>
+      <rect x="-15" y="-55" width="30" height="6" fill="#ff5a1f"/>
+      <rect x="-3" y="-67" width="6" height="30" fill="#ff5a1f"/>
+    </g>
+    <g transform="translate(0,0)">
+      <path d="M -52 0 L 52 0 L 52 -100 L -52 -100 Z" fill="#ff5a1f"/>
+      <path d="M -52 0 L 52 0 L 65 -10 L 65 -110 L -39 -110 L -52 -100 Z" fill="#e8511c"/>
+      <path d="M 52 0 L 52 -100 L 65 -110 L 65 -10 Z" fill="#bd4015"/>
+      <rect x="-52" y="-82" width="104" height="12" fill="#f7f5f0"/>
+      <rect x="-15" y="-55" width="30" height="6" fill="#fff"/>
+      <rect x="-3" y="-67" width="6" height="30" fill="#fff"/>
+    </g>
+    <g transform="translate(115,0)">
+      <path d="M -52 0 L 52 0 L 52 -100 L -52 -100 Z" fill="#f7f5f0"/>
+      <path d="M -52 0 L 52 0 L 65 -10 L 65 -110 L -39 -110 L -52 -100 Z" fill="#e3dfd1"/>
+      <path d="M 52 0 L 52 -100 L 65 -110 L 65 -10 Z" fill="#cfc9b6"/>
+      <rect x="-52" y="-82" width="104" height="12" fill="#1a1f29"/>
+      <rect x="-45" y="-55" width="55" height="3" fill="#1a1f29" opacity="0.4"/>
+      <rect x="-45" y="-45" width="40" height="3" fill="#1a1f29" opacity="0.3"/>
+    </g>
+  </g>
+  <!-- Top: 2 boxes -->
+  <g transform="translate(400,400)">
+    <g transform="translate(-55,0)">
+      <path d="M -50 0 L 50 0 L 50 -90 L -50 -90 Z" fill="#1a1f29"/>
+      <path d="M -50 0 L 50 0 L 62 -10 L 62 -100 L -38 -100 L -50 -90 Z" fill="#252b39"/>
+      <path d="M 50 0 L 50 -90 L 62 -100 L 62 -10 Z" fill="#0e1219"/>
+      <rect x="-50" y="-72" width="100" height="11" fill="#ff5a1f"/>
+      <rect x="-12" y="-50" width="24" height="5" fill="#fff"/>
+      <rect x="-2.5" y="-60" width="5" height="24" fill="#fff"/>
+    </g>
+    <g transform="translate(55,0)">
+      <path d="M -50 0 L 50 0 L 50 -90 L -50 -90 Z" fill="#f7f5f0"/>
+      <path d="M -50 0 L 50 0 L 62 -10 L 62 -100 L -38 -100 L -50 -90 Z" fill="#e3dfd1"/>
+      <path d="M 50 0 L 50 -90 L 62 -100 L 62 -10 Z" fill="#cfc9b6"/>
+      <rect x="-50" y="-72" width="100" height="11" fill="#1a1f29"/>
+      <rect x="-12" y="-50" width="24" height="5" fill="#ff5a1f"/>
+      <rect x="-2.5" y="-60" width="5" height="24" fill="#ff5a1f"/>
+    </g>
+  </g>
+  <!-- Top single box being lifted -->
+  <g transform="translate(400,300)">
+    <ellipse cx="0" cy="6" rx="50" ry="5" fill="#1a1f29" opacity="0.15"/>
+    <path d="M -45 0 L 45 0 L 45 -80 L -45 -80 Z" fill="#ff5a1f"/>
+    <path d="M -45 0 L 45 0 L 56 -8 L 56 -88 L -34 -88 L -45 -80 Z" fill="#e8511c"/>
+    <path d="M 45 0 L 45 -80 L 56 -8 L 56 -88 Z" fill="#bd4015"/>
+    <rect x="-45" y="-65" width="90" height="9" fill="#f7f5f0"/>
+    <rect x="-10" y="-43" width="20" height="4" fill="#fff"/>
+    <rect x="-2" y="-51" width="4" height="20" fill="#fff"/>
+    <line x1="0" y1="-80" x2="0" y2="-130" stroke="#1a1f29" stroke-width="1.5" stroke-dasharray="3 4" opacity="0.5"/>
+    <rect x="-18" y="-135" width="36" height="6" rx="1" fill="#1a1f29" opacity="0.6"/>
+  </g>
+
+</svg>
